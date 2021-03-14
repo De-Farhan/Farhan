@@ -1,0 +1,60 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-height: auto !important;
+}
+
+.viewport {
+  margin: 0 auto;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.scroll-container {
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.content {
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-wrapper {
+  position: relative;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.photo {
+  position: absolute;
+  z-index: 20;
+  width: 600px;
+  height: 860px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.item {
+  position: relative;
+  height: 520px;
+  width: 600px;
+}

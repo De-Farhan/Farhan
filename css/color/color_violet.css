@@ -1,0 +1,377 @@
+#navbar .navbar-brand {
+  color: #ffffff;
+}
+#navbar ul li a {
+  color: #ffffff;
+}
+#navbar ul li a:hover::after {
+  color: #ffffff;
+}
+.nav_fixed {
+  border-bottom: 1px solid #9900cc !important;
+}
+.nav_fixed ul li .active::after {
+  background: #9900cc !important;
+}
+#banner_part .banner_overlay::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(153, 0, 204, 0.4)),
+    color-stop(70%, rgba(0, 0, 0, 0))
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    rgba(153, 0, 204, 0.4) 0%,
+    rgba(0, 0, 0, 0) 70%
+  ) !important;
+}
+#banner_part .banner_overlay .banner_content .traingle::after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 0%,
+    #262626 100%
+  ) !important;
+}
+#banner_part .banner_overlay .banner_content .banner_text #banner_btn {
+  background: linear-gradient(
+    to bottom right,
+    rgba(153, 0, 204) -5%,
+    rgb(38, 38, 38) 100%
+  ) !important;
+}
+#banner_part .banner_overlay .banner_content .banner_text #banner_btn:hover {
+  background: linear-gradient(
+    to bottom right,
+    rgba(153, 0, 204) 100%,
+    rgb(38, 38, 38) 0%
+  ) !important;
+}
+#about_part .about_overlay .icon a {
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#about_part .about_overlay .icon a:hover {
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#about_part .about_overlay .about_card h4 {
+  color: #9900cc;
+}
+#skills_part .skills_overlay .diagram div {
+  border-color: rgba(153, 0, 204) rgba(153, 0, 204) transparent transparent !important;
+}
+
+#skills_part .skills_overlay .diagram span {
+  color: rgba(153, 0, 204) !important;
+}
+#education .edu_overlay .edu_details h6,
+#education .edu_overlay .exp_details h6 {
+  color: #9900cc;
+}
+#education .edu_overlay .edu_details h6::after,
+#education .edu_overlay .exp_details h6::after {
+  background: #9900cc;
+}
+#work_part .work_overlay #elastic_grid_demo #porfolio-nav ul li.current a {
+  background: #9900cc;
+}
+#work_part .work_overlay #elastic_grid_demo #porfolio-nav ul li a:hover {
+  background: #9900cc;
+}
+#work_part .work_overlay #elastic_grid_demo ul#og-grid li a figure {
+  background: #9900cc;
+}
+#work_part
+  .work_overlay
+  #elastic_grid_demo
+  ul#og-grid
+  .og-expander
+  .og-expander-inner
+  .og-details
+  span
+  a {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#work_part
+  .work_overlay
+  #elastic_grid_demo
+  ul#og-grid
+  .og-expander
+  .og-expander-inner
+  .og-details
+  span
+  a:hover {
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#clients_part .clients_overlay .clients_card .clients_text .icon_stars i {
+  color: #9900cc !important;
+}
+#clients_part .clients_overlay .clients_item .right,
+#clients_part .clients_overlay .clients_item .left {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#clients_part .clients_overlay .clients_item .right:hover,
+#clients_part .clients_overlay .clients_item .left:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #9900cc),
+    color-stop(0%, #262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#blog_part .blog_overlay .blog_items:hover .blog_details .blog_text h3 a {
+  color: #9900cc !important;
+}
+#blog_part .blog_overlay .blog_items:hover .blog_details .blog_btn a {
+  color: #9900cc !important;
+}
+#blog_part .blog_overlay .browse_btn a {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#blog_part .blog_overlay .browse_btn a:hover {
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#contact_part .contact_overlay form input[type="text"]:hover,
+#contact_part .contact_overlay form input[type="email"]:hover,
+#contact_part .contact_overlay form textarea:hover {
+  border-bottom: 1px solid #9900cc !important;
+}
+#contact_part .contact_overlay form input[type="text"]:focus,
+#contact_part .contact_overlay form input[type="email"]:focus,
+#contact_part .contact_overlay form textarea:focus {
+  border-bottom: 1px solid #9900cc !important;
+}
+#contact_part .contact_overlay form button[type="submit"] {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#contact_part .contact_overlay form button[type="submit"]:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #9900cc),
+    color-stop(0%, #262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#contact_part .contact_overlay .contact_details .icon_text ul li .icon i {
+  color: #9900cc !important;
+}
+#footer_part .footer_icons i {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#footer_part .footer_icons i:hover {
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+#footer_part .copy_right p span span {
+  color: #9900cc !important;
+}
+#to_top a i {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#to_top a i:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #9900cc),
+    color-stop(0%, #262626)
+  ) !important;
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+
+/* latest blog page color css start */
+#banner_part .overlay .banner_text h2 {
+  color: #9900cc;
+}
+#banner_part .overlay .banner_text h5 a:hover {
+  color: #9900cc;
+}
+#blog_part .blog_items:hover .blog_details .blog_text h3 a {
+  color: #9900cc;
+}
+#blog_part .blog_items:hover .blog_details .blog_btn a {
+  color: #9900cc;
+}
+/* latest blog page color css end */
+
+/* latest blog details page color css start */
+#details_part .details_items .details_text h3 {
+  color: #9900cc !important;
+}
+#details_part .details_items .comments h2 {
+  color: #9900cc !important;
+}
+#details_part
+  .details_items
+  .comments
+  .comments_left
+  .c_img_details
+  .name_title
+  .name
+  h4 {
+  color: #9900cc !important;
+}
+#details_part
+  .details_items
+  .comments
+  .comments_left
+  .name_details
+  .reply
+  a:hover {
+  color: #9900cc !important;
+}
+#details_part
+  .details_items
+  .updates
+  .updates_items:hover
+  .updates_details
+  h3
+  a {
+  color: #9900cc !important;
+}
+#details_part
+  .details_items
+  .updates
+  .updates_items:hover
+  .updates_details
+  .u_btn
+  a {
+  color: #9900cc !important;
+}
+#details_part .details_items .updates .updates_btn a {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #9900cc),
+    to(#262626)
+  );
+  background: linear-gradient(
+    to bottom right,
+    #9900cc -5%,
+    #262626 100%
+  ) !important;
+}
+#details_part .details_items .updates .updates_btn a:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #9900cc),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(
+    to bottom right,
+    #9900cc 100%,
+    #262626 0%
+  ) !important;
+}
+/* latest blog details page color css end */
